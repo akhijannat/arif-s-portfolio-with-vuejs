@@ -32,7 +32,10 @@
           class="carousel-cell mx-2 bg-gradient-to-tr from-slate-200 to-white p-3 rounded-2xl shadow"
           style="font-family: 'Bentham', serif"
         >
-          <img class="h-72 w-[500px] rounded" src="../assets/wb-1 (2).jpg" />
+          <img
+            class="h-72 w-[500px] rounded"
+            src="../assets/Home-Real-Fruit.png"
+          />
           <h1 class="text-2xl mt-2">Responsive design development</h1>
           <p class="text-xl">Using Bootstarp</p>
         </a>

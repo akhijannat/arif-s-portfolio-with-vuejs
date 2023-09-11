@@ -18,7 +18,7 @@
     </div>
 
     <a
-      href="#Intro"
+      href="#intro"
       class="animate-bounce w-16 h-16 bg-gradient-to-r from-red-300 via-indigo-400 to-red-300 flex justify-center items-center rounded-full border shadow-2xl mt-20"
     >
       <svg

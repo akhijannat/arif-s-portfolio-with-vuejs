@@ -4,7 +4,7 @@
     <div class="w-4/5 mx-auto">
       <h1 class="text-4xl md:text-[50px] font-bold text-center">My Skills</h1>
 
-      <div class="h-1 w-52 bg-gray-600 mx-auto rounded-full mb-3"></div>
+      <div class="h-1 w-52 bg-gray-600 mx-auto rounded-full my-3"></div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8">
         <div>

@@ -11,7 +11,7 @@
         What I Do
       </h1>
 
-      <div class="h-1 w-52 bg-gray-600 mx-auto rounded-full mb-3"></div>
+      <div class="h-1 w-52 bg-gray-600 mx-auto rounded-full my-3"></div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 md:py-10 text-white">
         <div class="md:border-r border-slate-300 md:border-b p-2 md:p-7">

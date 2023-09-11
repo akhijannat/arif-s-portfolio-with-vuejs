@@ -35,7 +35,7 @@
       </svg>
     </div>
     <span class="border-b border-dashed text-xl text-white font-semibold"
-      >Click 🔝</span
+      >Click 👇</span
     >
   </section>
 </template>

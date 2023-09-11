@@ -8,7 +8,7 @@
       >
         Some of My Work
       </h1>
-      <div class="h-1 w-52 bg-gray-600 mx-auto rounded-full mb-6"></div>
+      <div class="h-1 w-52 bg-gray-600 mx-auto rounded-full my-3"></div>
 
       <div
         id="carousel"

@@ -9,7 +9,7 @@
         My Client Experience
       </h1>
 
-      <div class="h-1 w-52 bg-slate-400 mx-auto rounded-full mb-3"></div>
+      <div class="h-1 w-52 bg-slate-400 mx-auto rounded-full my-3"></div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
         <div

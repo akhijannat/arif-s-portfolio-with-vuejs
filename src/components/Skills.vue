@@ -1,8 +1,10 @@
-<script setup></script>
+<script setup>
+import Heading from "../components/Heading.vue";
+</script>
 <template>
-  <section class="py-10" style="font-family: 'Bentham', serif">
-    <div class="w-4/5 mx-auto">
-      <h1 class="text-4xl md:text-[50px] font-bold text-center">My Skills</h1>
+  <section id="skills" class="py-10" style="font-family: 'Bentham', serif">
+    <div class="w-4/5 mx-auto text-center">
+      <Heading>My Skills</Heading>
 
       <div class="h-1 w-52 bg-gray-600 mx-auto rounded-full my-3"></div>
 

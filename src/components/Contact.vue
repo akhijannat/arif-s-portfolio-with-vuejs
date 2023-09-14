@@ -1,6 +1,10 @@
-<script setup></script>
+<script setup>
+import Heading from "./Heading.vue";
+
+const inputTextarea =
+  "shadow-[1.0px_2.0px_2.0px_#99aec2] bg-transparent border-b text-lg focus-visible:outline-none block w-full p-1";
+</script>
 <template>
-  <!-- Contact section -->
   <section
     id="contact"
     class="pt-5 md:py-10 bg-cover bg-center bg-no-repeat"
@@ -9,10 +13,8 @@
       background-image: url('https://images.unsplash.com/photo-1528747045269-390fe33c19f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
     "
   >
-    <div class="w-full md:w-4/5 mx-auto text-white">
-      <h1 class="text-4xl md:text-[50px] font-bold text-center">
-        Connect with me
-      </h1>
+    <div class="w-full md:w-4/5 mx-auto text-center text-white">
+      <Heading>Connect with me</Heading>
       <p class="text-center">
         Have a sweet project in mind or just want to say hi? <br />
         Feel free to send me a message!
@@ -23,19 +25,14 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-0 p-5 md:gap-10 my-5">
         <div class="col-span-2">
           <div class="px-4 mx-auto max-w-screen-md">
-            <form action="#" class="space-y-8">
+            <form action="#" class="space-y-8 text-left">
               <div>
                 <label
                   for="name"
                   class="block mb-1 text-lg font-medium text-gray-100"
                   >Your Name</label
                 >
-                <input
-                  type="text"
-                  id="name"
-                  class="shadow-sm bg-transparent border-b transition transform ease-in-out delay-150 text-lg focus-visible:outline-none block w-full p-1"
-                  required
-                />
+                <input type="text" id="name" :class="inputTextarea" required />
               </div>
               <div>
                 <label
@@ -46,7 +43,7 @@
                 <input
                   type="email"
                   id="email"
-                  class="shadow-sm bg-transparent border-b transition transform ease-in-out delay-150 text-lg focus-visible:outline-none block w-full p-1"
+                  :class="inputTextarea"
                   required
                 />
               </div>
@@ -59,7 +56,7 @@
                 <input
                   type="text"
                   id="subject"
-                  class="shadow-sm bg-transparent border-b transition transform ease-in-out delay-150 text-lg focus-visible:outline-none block w-full p-1"
+                  :class="inputTextarea"
                   required
                 />
               </div>
@@ -72,7 +69,7 @@
                 <textarea
                   id="message"
                   rows="5"
-                  class="shadow-sm bg-transparent border-b transition transform ease-in-out delay-150 text-lg focus-visible:outline-none block w-full p-1"
+                  :class="inputTextarea"
                 ></textarea>
               </div>
               <button

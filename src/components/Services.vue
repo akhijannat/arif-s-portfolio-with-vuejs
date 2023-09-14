@@ -1,15 +1,14 @@
-<script setup></script>
+<script setup>
+import Heading from "../components/Heading.vue";
+
+const servicesSection =
+  "bg-[url('https://plus.unsplash.com/premium_photo-1674729243673-0b5e871a8a24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1535&q=80')] py-10 bg-cover bg-center bg-no-repeat";
+</script>
+
 <template>
-  <section
-    class="py-10 bg-[url('https://plus.unsplash.com/premium_photo-1674729243673-0b5e871a8a24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1535&q=80')] bg-cover bg-center bg-no-repeat"
-  >
-    <div class="w-4/5 mx-auto">
-      <h1
-        class="text-4xl md:text-[50px] font-bold text-center"
-        style="font-family: 'Bentham', serif"
-      >
-        What I Do
-      </h1>
+  <section id="services" :class="servicesSection">
+    <div class="w-4/5 mx-auto text-center">
+      <Heading>What I Do</Heading>
 
       <div class="h-1 w-52 bg-gray-600 mx-auto rounded-full my-3"></div>
 

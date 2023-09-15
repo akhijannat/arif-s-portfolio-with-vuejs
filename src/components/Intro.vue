@@ -47,7 +47,7 @@ import Heading from "../components/Heading.vue";
         enjoy working with include ReactJS, JavaScript as well as Laravel.
       </p>
 
-      <div class="grid grid-cols-1 md:grid-cols-5 items-center gap-5 mt-5">
+      <div class="grid grid-cols-1 md:grid-cols-5 items-center gap-5 px-2 mt-5">
         <div></div>
         <div
           class="bg-gradient-to-tr from-slate-200 to-white py-5 rounded-xl shadow-xl"

@@ -57,6 +57,7 @@ onUnmounted(() => {
 </script>
 <template>
   <!-- Navigation -->
+
   <nav
     v-if="isVisible"
     id="dot-nav"

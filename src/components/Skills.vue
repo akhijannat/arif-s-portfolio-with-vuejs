@@ -1,5 +1,8 @@
 <script setup>
 import Heading from "../components/Heading.vue";
+
+const languageSkill =
+  "h-40 w-40 text-[20px] flex items-center justify-center rounded-full font-bold ";
 </script>
 <template>
   <section id="skills" class="py-10" style="font-family: 'Bentham', serif">
@@ -30,94 +33,22 @@ import Heading from "../components/Heading.vue";
           </div>
 
           <div class="grid grid-cols-2 md:grid-cols-3 gap-5 mt-5">
-            <div
-              class="h-40 w-40 flex items-center justify-center rounded-full font-bold"
-              style="
-                box-shadow: 8px 8px 10px 0px #dee5ec;
-                background-image: linear-gradient(
-                  145deg,
-                  #e3e9ed 0%,
-                  #fff 100%
-                );
-                font-family: 'Bentham', serif;
-                font-size: 20px;
-              "
-            >
+            <div :class="languageSkill" class="lanSkill">
               <span>HTML</span>
             </div>
-            <div
-              class="h-40 w-40 flex items-center justify-center rounded-full font-bold"
-              style="
-                box-shadow: 8px 8px 10px 0px #dee5ec;
-                background-image: linear-gradient(
-                  145deg,
-                  #e3e9ed 0%,
-                  #fff 100%
-                );
-                font-family: 'Bentham', serif;
-                font-size: 20px;
-              "
-            >
+            <div :class="languageSkill" class="lanSkill">
               <span>CSS</span>
             </div>
-            <div
-              class="h-40 w-40 flex items-center justify-center rounded-full font-bold"
-              style="
-                box-shadow: 8px 8px 10px 0px #dee5ec;
-                background-image: linear-gradient(
-                  145deg,
-                  #e3e9ed 0%,
-                  #fff 100%
-                );
-                font-family: 'Bentham', serif;
-                font-size: 20px;
-              "
-            >
+            <div :class="languageSkill" class="lanSkill">
               <span>TAILWIND CSS</span>
             </div>
-            <div
-              class="h-40 w-40 flex items-center justify-center rounded-full font-bold"
-              style="
-                box-shadow: 8px 8px 10px 0px #dee5ec;
-                background-image: linear-gradient(
-                  145deg,
-                  #e3e9ed 0%,
-                  #fff 100%
-                );
-                font-family: 'Bentham', serif;
-                font-size: 20px;
-              "
-            >
+            <div :class="languageSkill" class="lanSkill">
               <span>JAVASCRIPT</span>
             </div>
-            <div
-              class="h-40 w-40 flex items-center justify-center rounded-full font-bold"
-              style="
-                box-shadow: 8px 8px 10px 0px #dee5ec;
-                background-image: linear-gradient(
-                  145deg,
-                  #e3e9ed 0%,
-                  #fff 100%
-                );
-                font-family: 'Bentham', serif;
-                font-size: 20px;
-              "
-            >
+            <div :class="languageSkill" class="lanSkill">
               <span>LARAVEL</span>
             </div>
-            <div
-              class="h-40 w-40 flex items-center justify-center rounded-full font-bold"
-              style="
-                box-shadow: 8px 8px 10px 0px #dee5ec;
-                background-image: linear-gradient(
-                  145deg,
-                  #e3e9ed 0%,
-                  #fff 100%
-                );
-                font-family: 'Bentham', serif;
-                font-size: 20px;
-              "
-            >
+            <div :class="languageSkill" class="lanSkill">
               <span>VUE</span>
             </div>
           </div>
@@ -360,3 +291,15 @@ import Heading from "../components/Heading.vue";
     </div>
   </section>
 </template>
+
+<style scoped>
+.lanSkill {
+  box-shadow: 8px 8px 10px 0px #dee5ec;
+  background-image: linear-gradient(145deg, #e3e9ed 0%, #fff 100%);
+  font-family: "Bentham", serif;
+}
+.lanSkill:hover {
+  box-shadow: none;
+  border: 1.5px solid #dee5ec;
+}
+</style>

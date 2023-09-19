@@ -1,5 +1,8 @@
 <script setup>
 import Heading from "../components/Heading.vue";
+
+const work =
+  "bg-gradient-to-tr from-slate-200 to-white py-5 rounded-xl shadow-xl";
 </script>
 <template>
   <section id="intro" class="">
@@ -11,7 +14,7 @@ import Heading from "../components/Heading.vue";
         class="w-4/5 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-20 py-5 md:py-10"
       >
         <div
-          class="flex justify-center flex-col bg-gradient-to-tr from-slate-200 to-white p-5 rounded-xl shadow-lg shadow-slate-300"
+          class="text-left flex justify-center flex-col bg-gradient-to-tr from-slate-200 to-white p-5 rounded-xl shadow-lg shadow-slate-300"
         >
           <Heading>Hi, I'm Arif Hosen</Heading>
 
@@ -49,24 +52,15 @@ import Heading from "../components/Heading.vue";
 
       <div class="grid grid-cols-1 md:grid-cols-5 items-center gap-5 px-2 mt-5">
         <div></div>
-        <div
-          class="bg-gradient-to-tr from-slate-200 to-white py-5 rounded-xl shadow-xl"
-          style="font-family: 'Bentham', serif"
-        >
+        <div :class="work" style="font-family: 'Bentham', serif">
           <h1 class="text-5xl">100 %</h1>
           <p>SUCCESS RATE</p>
         </div>
-        <div
-          class="bg-gradient-to-tr from-slate-200 to-white py-5 rounded-xl shadow-xl"
-          style="font-family: 'Bentham', serif"
-        >
+        <div :class="work" style="font-family: 'Bentham', serif">
           <h1 class="text-5xl">200 +</h1>
           <p>HAPPY CLIENTS</p>
         </div>
-        <div
-          class="bg-gradient-to-tr from-slate-200 to-white py-5 rounded-xl shadow-xl"
-          style="font-family: 'Bentham', serif"
-        >
+        <div :class="work" style="font-family: 'Bentham', serif">
           <h1 class="text-5xl">1,000 +</h1>
           <p>HOURS OF WORK</p>
         </div>

@@ -1,5 +1,7 @@
 <script setup>
 import Heading from "../components/Heading.vue";
+const clientExCard =
+  "border bg-gradient-to-tr from-slate-200 to-white p-5 rounded-xl shadow-lg shadow-slate-300";
 </script>
 <template>
   <section id="clientExperience">
@@ -9,51 +11,42 @@ import Heading from "../components/Heading.vue";
       <div class="h-1 w-52 bg-slate-400 mx-auto rounded-full my-3"></div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
-        <div
-          class="border bg-gradient-to-tr from-slate-200 to-white p-5 rounded-xl shadow-lg shadow-slate-300"
-          style="font-family: 'Bentham', serif"
-        >
+        <div :class="clientExCard" style="font-family: 'Bentham', serif">
           <img
             class="h-28 w-28 rounded-full mx-auto"
             src="../assets/arif001-Recovered.png"
             alt=""
           />
           <h1 class="text-4xl">Arif Hosen</h1>
-          <p class="">
+          <p class="font-serif">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
             minus nihil doloremque. Incidunt accusamus magni, velit non quisquam
             nesciunt tenetur?
           </p>
         </div>
 
-        <div
-          class="border bg-gradient-to-tr from-slate-200 to-white p-5 rounded-xl shadow-lg shadow-slate-300"
-          style="font-family: 'Bentham', serif"
-        >
+        <div :class="clientExCard" style="font-family: 'Bentham', serif">
           <img
             class="h-28 w-28 rounded-full mx-auto"
             src="../assets/arif001-Recovered.png"
             alt=""
           />
           <h1 class="text-4xl">Arif Hosen</h1>
-          <p class="">
+          <p class="font-serif">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
             minus nihil doloremque. Incidunt accusamus magni, velit non quisquam
             nesciunt tenetur?
           </p>
         </div>
 
-        <div
-          class="border bg-gradient-to-tr from-slate-200 to-white p-5 rounded-xl shadow-lg shadow-slate-300"
-          style="font-family: 'Bentham', serif"
-        >
+        <div :class="clientExCard" style="font-family: 'Bentham', serif">
           <img
             class="h-28 w-28 rounded-full mx-auto"
             src="../assets/arif001-Recovered.png"
             alt=""
           />
           <h1 class="text-4xl">Arif Hosen</h1>
-          <p class="">
+          <p class="font-serif">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
             minus nihil doloremque. Incidunt accusamus magni, velit non quisquam
             nesciunt tenetur?

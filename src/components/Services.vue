@@ -13,7 +13,9 @@ const servicesSection =
       <div class="h-1 w-52 bg-gray-600 mx-auto rounded-full my-3"></div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 md:py-10 text-white">
-        <div class="md:border-r border-slate-300 md:border-b p-2 md:p-7">
+        <div
+          class="text-left md:border-r border-slate-300 md:border-b p-2 md:p-7"
+        >
           <div
             class="flex space-x-2 text-2xl md:text-3xl items-center font-bold"
             style="font-family: 'Bentham', serif"
@@ -44,7 +46,7 @@ const servicesSection =
           </p>
         </div>
 
-        <div class="md:border-b border-slate-300 p-2 md:p-7">
+        <div class="text-left md:border-b border-slate-300 p-2 md:p-7">
           <div
             class="flex space-x-2 text-2xl md:text-3xl items-center font-bold"
             style="font-family: 'Bentham', serif"
@@ -74,7 +76,7 @@ const servicesSection =
           </p>
         </div>
 
-        <div class="md:border-r border-slate-300 p-2 md:p-7">
+        <div class="text-left md:border-r border-slate-300 p-2 md:p-7">
           <div
             class="flex space-x-2 text-2xl md:text-3xl items-center font-bold"
             style="font-family: 'Bentham', serif"
@@ -105,7 +107,7 @@ const servicesSection =
           </p>
         </div>
 
-        <div class="p-2 md:p-7">
+        <div class="text-left p-2 md:p-7">
           <div
             class="flex space-x-2 text-2xl md:text-3xl items-center font-bold"
             style="font-family: 'Bentham', serif"
